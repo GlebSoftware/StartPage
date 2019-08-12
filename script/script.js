@@ -11,7 +11,7 @@ const CONFIGObj = {
       name: 'Google',
       key: '*',
       url: 'https://google.com',
-      search: '/search?q={}',
+      search: '/search?q=%s',
       color: '#DE5833',
     },
     {
