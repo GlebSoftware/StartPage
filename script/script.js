@@ -125,7 +125,7 @@ const CONFIGObj = {
     {
       category: 'Other',
       name: 'GCPS',
-      key: 'g',
+      key: 'e',
       url: 'https://publish.gwinnett.k12.ga.us/gcps/home/gcpslogin',
       color: 'linear-gradient(135deg, #7A0000, #FFFFFF)',
       icon: 'gcps',
