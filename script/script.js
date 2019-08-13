@@ -125,10 +125,9 @@ const CONFIGObj = {
     {
       category: 'Other',
       name: 'GCPS',
-      key: 'i',
+      key: 'g',
       url: 'https://publish.gwinnett.k12.ga.us/gcps/home/gcpslogin',
-      search: '/find?ref_=nv_sr_fn&q={}',
-      color: 'linear-gradient(135deg, #7A5F00, #E8B708)',
+      color: 'linear-gradient(135deg, #7A0000, #FFFFFF)',
       icon: 'gcps',
       quickLaunch: false,
     },
@@ -138,7 +137,7 @@ const CONFIGObj = {
    * Get suggestions as you type.
    */
   suggestions: true,
-  suggestionsLimit: 4,
+  suggestionsLimit: 5,
 
   /**
    * The order and limit for each suggestion influencer. An "influencer" is
@@ -198,7 +197,7 @@ const CONFIGObj = {
   /**
    * The delimiter between the hours and minutes on the clock.
    */
-  clockDelimiter: ':',
+  clockDelimiter: ' ',
 
   /**
    * Show a twenty-four-hour clock instead of a twelve-hour clock with AM/PM.
