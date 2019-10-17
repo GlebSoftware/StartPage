@@ -71,7 +71,7 @@ const CONFIGObj = {
       url: 'https://quizlet.com',
       search: '/search/{}',
       color: 'linear-gradient(110deg, #0000FF, #FFFFFF)',
-      icon: 'arstechnica',
+      icon: 'quizlet',
       quickLaunch: false,
     },
     {
