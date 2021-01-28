@@ -11,14 +11,14 @@ const CONFIGObj = {
       name: 'Google',
       key: '*',
       url: 'https://google.com',
-      search: '/?q={}',
+      search: '/search?q={}',
       color: '#DE5833',
     },
     {
       category: 'General',
       name: 'Mail',
       key: 'm',
-      url: 'https://gmail.com',
+      url: 'https://mail.google.com',
       search: '/#search/text={}',
       color: 'linear-gradient(135deg, #dd5145, #dd5145)',
       icon: 'mail',
@@ -66,12 +66,12 @@ const CONFIGObj = {
     },
     {
       category: 'Tech',
-      name: 'Ars Technica',
-      key: 'a',
-      url: 'https://arstechnica.com',
-      search: '/search/?ie=UTF-8&q={}',
-      color: 'linear-gradient(135deg, #FF4E00, #B83800)',
-      icon: 'arstechnica',
+      name: 'Quizlet',
+      key: 'q',
+      url: 'https://quizlet.com',
+      search: '/search/{}',
+      color: 'linear-gradient(110deg, #0000FF, #FFFFFF)',
+      icon: 'quizlet',
       quickLaunch: false,
     },
     {
@@ -79,7 +79,7 @@ const CONFIGObj = {
       name: 'YouTube',
       key: 'y',
       url: 'https://youtube.com',
-      search: '/results?search_query={}',
+      search: '/search?q={}',
       color: 'linear-gradient(135deg, #cd201f, #cd4c1f)',
       icon: 'youtube',
       quickLaunch: false,
@@ -124,12 +124,11 @@ const CONFIGObj = {
     },
     {
       category: 'Other',
-      name: 'IMDb',
-      key: 'i',
-      url: 'https://imdb.com',
-      search: '/find?ref_=nv_sr_fn&q={}',
-      color: 'linear-gradient(135deg, #7A5F00, #E8B708)',
-      icon: 'imdb',
+      name: 'GCPS',
+      key: 'e',
+      url: 'https://publish.gwinnett.k12.ga.us/gcps/home/gcpslogin',
+      color: 'linear-gradient(135deg, #7A0000, #FFFFFF)',
+      icon: 'gcps',
       quickLaunch: false,
     },
   ],
@@ -138,7 +137,7 @@ const CONFIGObj = {
    * Get suggestions as you type.
    */
   suggestions: true,
-  suggestionsLimit: 4,
+  suggestionsLimit: 6,
 
   /**
    * The order and limit for each suggestion influencer. An "influencer" is
@@ -159,7 +158,7 @@ const CONFIGObj = {
    */
   defaultSuggestions: {
     g: ['g/issues', 'g/pulls', 'gist.github.com'],
-    r: ['r/r/unixporn', 'r/r/startpages', 'r/r/webdev', 'r/r/technology'],
+    r: ['r/r/unix', 'r/r/startpages', 'r/r/webdev', 'r/r/technology'],
   },
 
   /**
@@ -171,7 +170,7 @@ const CONFIGObj = {
   /**
    * Open triggered queries in a new tab.
    */
-  newTab: true,
+  newTab: false,
 
   /**
    * Dynamic overlay background colors when command domains are matched.
@@ -191,19 +190,19 @@ const CONFIGObj = {
 
   /**
    * The delimiter between a command key and a path. For example, you'd type
-   * "r/r/unixporn" to go to "https://reddit.com/r/unixporn".
+   * "r/r/unix" to go to "https://reddit.com/r/unix".
    */
   pathDelimiter: '/',
 
   /**
    * The delimiter between the hours and minutes on the clock.
    */
-  clockDelimiter: ' ',
+  clockDelimiter: ':',
 
   /**
    * Show a twenty-four-hour clock instead of a twelve-hour clock with AM/PM.
    */
-  twentyFourHourClock: false,
+  twentyFourHourClock: true,
 };
 let CONFIG;
 
