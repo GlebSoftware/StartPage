@@ -106,7 +106,7 @@ const CONFIGObj = {
     {
       category: 'Other',
       name: 'Reddit',
-      key: 'r',
+      key: 'e',
       url: 'https://reddit.com',
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #FF8456, #FF4500)',
@@ -115,11 +115,11 @@ const CONFIGObj = {
     },
     {
       category: 'Other',
-      name: 'Twitter',
-      key: 'o',
-      url: 'https://twitter.com',
-      color: 'linear-gradient(135deg, #C0A886, #E2DBC8)',
-      icon: 'twitter',
+      name: 'Robinhood',
+      key: 'r',
+      url: 'https://robinhood.com/',
+      color: 'linear-gradient(135deg, #228B22, #7CFC00)',
+      icon: 'robinhood',
       quickLaunch: true,
     },
     {
