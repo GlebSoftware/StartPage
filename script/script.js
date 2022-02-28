@@ -56,12 +56,12 @@ const CONFIGObj = {
     },
     {
       category: 'Tech',
-      name: 'StackOverflow',
-      key: 's',
-      url: 'https://stackoverflow.com',
+      name: 'Predicting Alpha',
+      key: 'p',
+      url: 'https://www.predictingalpha.com/log-in',
       search: '/search?q={}',
-      color: 'linear-gradient(135deg, #53341C, #F48024)',
-      icon: 'stackoverflow',
+      color: 'linear-gradient(135deg, #50C878, #818589)',
+      icon: 'pa',
       quickLaunch: true,
     },
     {
