@@ -95,12 +95,12 @@ const CONFIGObj = {
     },
     {
       category: 'Fun',
-      name: 'Twitch',
-      key: 't',
-      url: 'https://www.twitch.tv',
+      name: 'Discord',
+      key: 'di',
+      url: 'https://discord.com/channels/@me',
       search: '/directory/game/{}',
-      color: 'linear-gradient(135deg, #6441a5, #4b367c)',
-      icon: 'twitch',
+      color: 'linear-gradient(135deg, #7289d9, #FFFFFF)',
+      icon: 'discord',
       quickLaunch: false,
     },
     {
