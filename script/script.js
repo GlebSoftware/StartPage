@@ -71,7 +71,7 @@ const CONFIGObj = {
       url: 'https://chat.openai.com/?model=gpt-4',
       search: '/search/{}',
       color: 'linear-gradient(110deg, #50C878, #FFFFFF)',
-      icon: 'quizlet',
+      icon: 'chatgpt',
       quickLaunch: false,
     },
     {
