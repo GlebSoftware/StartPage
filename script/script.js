@@ -37,7 +37,7 @@ const CONFIGObj = {
     {
       category: 'General',
       name: 'OneDrive',
-      key: 'o',
+      key: 'od',
       url: 'https://outlookuga-my.sharepoint.com/personal/hma65008_uga_edu/_layouts/15/onedrive.aspx?view=0',
       search: '/search/results/all/?keywords={}',
       color: 'linear-gradient(135deg, #006CA4, #0077B5)',
@@ -71,6 +71,16 @@ const CONFIGObj = {
       search: '/search/{}',
       color: 'linear-gradient(110deg, #000000, #FFFFFF)',
       icon: 'tradingview',
+      quickLaunch: false,
+    },
+    {
+      category: 'Finance',
+      name: 'OptionStrat',
+      key: 'o',
+      url: 'https://optionstrat.com/optimize',
+      search: '/search/{}',
+      color: 'linear-gradient(110deg, #010ff8, #0089bf, #00fb8a)',
+      icon: 'optionstrat',
       quickLaunch: false,
     },
     {
