@@ -112,7 +112,7 @@ const CONFIGObj = {
       quickLaunch: false,
     },
     {
-      category: 'School',
+      category: 'Socials',
       name: 'Discord',
       key: 'd',
       url: 'https://discord.com/channels/@me',
