@@ -141,6 +141,16 @@ const CONFIGObj = {
       icon: 'github',
       quickLaunch: true,
     },
+    {
+      category: 'Socials',
+      name: 'Twitter',
+      key: 'tw',
+      url: 'https://twitter.com/home',
+      search: '/search?q={}',
+      color: 'linear-gradient(135deg, #1DA1F2, #F5F8FA)',
+      icon: 'twitter',
+      quickLaunch: true,
+    },
   ],
 
   /**
