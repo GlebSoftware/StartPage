@@ -173,7 +173,7 @@ const CONFIGObj = {
     },
     {
       category: 'Real Estate',
-      name: 'Realtors Property Resource',
+      name: 'RPR',
       key: 'rpr',
       url: 'https://www.narrpr.com/home',
       search: '/search?q={}',
