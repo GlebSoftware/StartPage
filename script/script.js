@@ -36,6 +36,16 @@ const CONFIGObj = {
     },
     {
       category: 'General',
+      name: 'Calendar',
+      key: 'c',
+      url: 'https://calendar.google.com/calendar/u/1/r',
+      search: '/drive/search?q={}',
+      color: 'linear-gradient(135deg, #4086f4, #31aa52, #fbbd00, #eb4132)',
+      icon: 'Calendar',
+      quickLaunch: false,
+    },
+    {
+      category: 'General',
       name: 'OneDrive',
       key: 'od',
       url: 'https://outlookuga-my.sharepoint.com/personal/hma65008_uga_edu/_layouts/15/onedrive.aspx?view=0',
@@ -86,7 +96,7 @@ const CONFIGObj = {
     {
       category: 'School',
       name: 'ChatGPT',
-      key: 'c',
+      key: 'ch',
       url: 'https://chat.openai.com/?model=gpt-4',
       search: '/search/{}',
       color: 'linear-gradient(110deg, #50C878, #FFFFFF)',
