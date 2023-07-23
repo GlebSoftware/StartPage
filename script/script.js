@@ -194,7 +194,7 @@ const CONFIGObj = {
       {
       category: 'Real Estate',
       name: 'Flourish',
-      key: 'f',
+      key: 'fl',
       url: 'https://app.flourish.studio/projects',
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #c11e1f, #000000)',
