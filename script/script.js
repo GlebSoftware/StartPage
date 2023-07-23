@@ -123,6 +123,15 @@ const CONFIGObj = {
       quickLaunch: false,
     },
     {
+      category: 'School',
+      name: 'Outlook',
+      key: 'ou',
+      url: 'https://outlook.office.com/mail/',
+      color: 'linear-gradient(135deg, #0c81d8, #0079d5, #23aaeb, #4fdaff, #ffffff)',
+      icon: 'outlook',
+      quickLaunch: false,
+    },
+    {
       category: 'Socials',
       name: 'LinkedIn',
       key: 'l',
