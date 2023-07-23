@@ -191,6 +191,16 @@ const CONFIGObj = {
       icon: 'rpr',
       quickLaunch: true,
     },
+      {
+      category: 'Real Estate',
+      name: 'Flourish',
+      key: 'f',
+      url: 'https://app.flourish.studio/projects',
+      search: '/search?q={}',
+      color: 'linear-gradient(135deg, #c11e1f, #000000)',
+      icon: 'flourish',
+      quickLaunch: true,
+    },
   ],
 
   /**
