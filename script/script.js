@@ -38,7 +38,7 @@ const CONFIGObj = {
       category: 'General',
       name: 'Calendar',
       key: 'c',
-      url: 'https://calendar.google.com/calendar/u/1/r',
+      url: 'https://calendar.google.com/calendar/u/0/r',
       search: '/drive/search?q={}',
       color: 'linear-gradient(135deg, #4086f4, #31aa52, #fbbd00, #eb4132)',
       icon: 'Calendar',
