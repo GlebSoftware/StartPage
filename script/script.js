@@ -16,30 +16,30 @@ const CONFIGObj = {
     },
     {
       category: 'General',
-      name: 'Mail',
+      name: 'Gmail',
       key: 'm',
-      url: 'https://mail.google.com',
-      search: '/#search/text={}',
+      url: 'https://mail.google.com/mail/u/1/#inbox',
+      search: '/mail/u/1/#search/{}',
       color: 'linear-gradient(135deg, #dd5145, #dd5145)',
       icon: 'mail',
       quickLaunch: true,
     },
     {
       category: 'General',
-      name: 'Drive',
-      key: 'd',
-      url: 'https://drive.google.com',
-      search: '/drive/search?q={}',
-      color: 'linear-gradient(135deg, #FFD04B, #1EA362, #4688F3)',
-      icon: 'drive',
-      quickLaunch: false,
+      name: 'X',
+      key: 'x',
+      url: 'https://x.com/home',
+      search: '/search?q={}',
+      color: 'linear-gradient(135deg, #ffffff, #000000)',
+      icon: 'x',
+      quickLaunch: true,
     },
     {
       category: 'General',
       name: 'Calendar',
       key: 'c',
       url: 'https://calendar.google.com/calendar/u/0/r',
-      search: '/drive/search?q={}',
+      search: '/calendar/u/0/r/search?q={}',
       color: 'linear-gradient(135deg, #4086f4, #31aa52, #fbbd00, #eb4132)',
       icon: 'Calendar',
       quickLaunch: false,
@@ -49,76 +49,16 @@ const CONFIGObj = {
       name: 'OneDrive',
       key: 'od',
       url: 'https://outlookuga-my.sharepoint.com/personal/hma65008_uga_edu/_layouts/15/onedrive.aspx?view=0',
-      search: '/search/results/all/?keywords={}',
       color: 'linear-gradient(135deg, #006CA4, #0077B5)',
       icon: 'onedrive',
       quickLaunch: true,
     },
     {
-      category: 'Finance',
-      name: 'Robinhood',
-      key: 'r',
-      url: 'https://robinhood.com/',
-      color: 'linear-gradient(135deg, #228B22, #7CFC00)',
-      icon: 'robinhood',
-      quickLaunch: true,
-    },
-    {
-      category: 'Finance',
-      name: 'Predicting Alpha',
-      key: 'p',
-      url: 'https://www.predictingalpha.com/log-in',
-      search: '/search?q={}',
-      color: 'linear-gradient(135deg, #50C878, #818589)',
-      icon: 'pa',
-      quickLaunch: true,
-    },
-    {
-      category: 'Finance',
-      name: 'TradingView',
-      key: 't',
-      url: 'https://www.tradingview.com/',
-      search: '/search/{}',
-      color: 'linear-gradient(110deg, #000000, #FFFFFF)',
-      icon: 'tradingview',
-      quickLaunch: false,
-    },
-    {
-      category: 'Finance',
-      name: 'OptionStrat',
-      key: 'o',
-      url: 'https://optionstrat.com/optimize',
-      search: '/search/{}',
-      color: 'linear-gradient(110deg, #010ff8, #0089bf, #00fb8a)',
-      icon: 'optionstrat',
-      quickLaunch: false,
-    },
-    {
       category: 'School',
-      name: 'ChatGPT',
-      key: 'ch',
-      url: 'https://chat.openai.com/?model=gpt-4o',
-      search: '/search/{}',
-      color: 'linear-gradient(110deg, #50C878, #FFFFFF)',
-      icon: 'chatgpt',
-      quickLaunch: false,
-    },
-    {
-      category: 'School',
-      name: '7Sage',
-      key: '7',
-      url: 'https://7sage.com/dashboard/',
-      search: '/search?q={}',
-      color: 'linear-gradient(135deg, #18A2E1, #FFFFFF)',
-      icon: '7sage',
-      quickLaunch: false,
-    },
-    {
-      category: 'School',
-      name: 'UGA',
-      key: 'u',
+      name: 'eLC',
+      key: 'e',
       url: 'https://uga.view.usg.edu/d2l/home',
-      color: 'linear-gradient(135deg, #7A0000, #FFFFFF)',
+      color: 'linear-gradient(135deg, #BA0C2F, #FFFFFF)',
       icon: 'uga',
       quickLaunch: false,
     },
@@ -132,123 +72,96 @@ const CONFIGObj = {
       quickLaunch: false,
     },
     {
-      category: 'Socials',
-      name: 'LinkedIn',
-      key: 'l',
-      url: 'https://www.linkedin.com/in/gleb-a/',
-      color: 'linear-gradient(135deg, #0e76a8, #ffffff)',
-      icon: 'linkedin',
+      category: 'School',
+      name: 'Law Portal',
+      key: 'lp',
+      url: 'https://portal.law.uga.edu/?check_logged_in=1',
+      color: 'linear-gradient(135deg, #BA0C2F, #FFFFFF)',
+      icon: 'lawportal',
       quickLaunch: false,
     },
     {
-      category: 'Socials',
-      name: 'Discord',
-      key: 'd',
-      url: 'https://discord.com/channels/@me',
-      search: '/directory/game/{}',
-      color: 'linear-gradient(135deg, #7289d9, #FFFFFF)',
-      icon: 'discord',
+      category: 'School',
+      name: 'LDD',
+      key: 'ld',
+      url: 'https://law-uga.12twenty.com/dashboard/',
+      color: 'linear-gradient(135deg, #3c7dd9, #FFFFFF)',
+      icon: '12twenty',
       quickLaunch: false,
     },
     {
-      category: 'Socials',
+      category: 'Software',
+      name: 'Claude',
+      key: 'cl',
+      url: 'https://claude.ai/new',
+      search: '/new?q={}',
+      color: 'linear-gradient(135deg, #D97757, #F0EEE6)',
+      icon: 'claude',
+      quickLaunch: false,
+    },
+    {
+      category: 'Software',
       name: 'GitHub',
       key: 'g',
-      url: 'https://github.com',
+      url: 'https://github.com/GlebSoftware?tab=repositories',
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #2b2b2b, #3b3b3b)',
       icon: 'github',
       quickLaunch: true,
     },
     {
-      category: 'Socials',
-      name: 'X',
-      key: 'x',
-      url: 'https://twitter.com/home',
-      search: '/search?q={}',
-      color: 'linear-gradient(135deg, #ffffff, #000000)',
-      icon: 'x',
-      quickLaunch: true,
+      category: 'Software',
+      name: 'Vercel',
+      key: 'v',
+      url: 'https://vercel.com/glebsoftwares-projects',
+      color: 'linear-gradient(135deg, #FFFFFF, #000000)',
+      icon: 'vercel',
+      quickLaunch: false,
     },
-      {
-      category: 'Real Estate',
-      name: 'FlexMLS',
-      key: 'f',
-      url: 'https://bc.flexmls.com/',
-      search: '/search?q={}',
-      color: 'linear-gradient(135deg, #1DA1F2, #F5F8FA)',
-      icon: 'flexmls',
-      quickLaunch: true,
+    {
+      category: 'Software',
+      name: 'Google Cloud',
+      key: 'gc',
+      url: 'https://console.cloud.google.com/welcome?authuser=2&organizationId=974597001077&rapt=AEjHL4P3hLKDniKjdDrb7UjqWaveHy5L4ljzMkx7zuW4qFJSTBU7VbNhuWJ1nBK9ZmidfGabvLYeqXVXNlQhFoiGY_aHHxFLVfu1g0M3s_mc8aOGE_dJoLY',
+      color: 'linear-gradient(135deg, #4285F4, #34A853, #FBBC05, #EA4335)',
+      icon: 'googlecloud',
+      quickLaunch: false,
     },
-      {
-      category: 'Real Estate',
-      name: 'AllTheRooms',
-      key: 'a',
-      url: 'https://analytics.alltherooms.com/investor/overview/1022759',
-      search: '/search?q={}',
-      color: 'linear-gradient(135deg, #f35269, #ffc952, #53c8ed)',
-      icon: 'atr',
-      quickLaunch: true,
+    {
+      category: 'Law',
+      name: 'Westlaw',
+      key: 'w',
+      url: 'https://auth.thomsonreuters.com/u/login/identifier?state=hKFo2SBTc0R1aF9wR1lPRVYzcXR1MGxvMy1wMUdPem9oVDcwVaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIF9rSVNkWTRZZ1JhUXppSWdSUE5TaTVRN0ZKMFJzbm11o2NpZNkgR3h3NW9MRFZZZFR4b1N3WUQ5d2dKSzdZczViTFZTbkI&ui_locales=en',
+      color: 'linear-gradient(135deg, #FF8000, #FFFFFF)',
+      icon: 'westlaw',
+      quickLaunch: false,
     },
-      {
-      category: 'Real Estate',
-      name: 'RPR',
-      key: 'rpr',
-      url: 'https://www.narrpr.com/home',
-      search: '/search?q={}',
-      color: 'linear-gradient(135deg, #d03928, #f8b617, #0683c3, #b1d140)',
-      icon: 'rpr',
-      quickLaunch: true,
+    {
+      category: 'Law',
+      name: 'West Academic',
+      key: 'wa',
+      url: 'https://eproducts.westacademic.com/MyBookshelf',
+      color: 'linear-gradient(135deg, #2F5D8C, #FFFFFF)',
+      icon: 'westacademic',
+      quickLaunch: false,
     },
-      {
-      category: 'Real Estate',
-      name: 'Flourish',
-      key: 'fl',
-      url: 'https://app.flourish.studio/projects',
-      search: '/search?q={}',
-      color: 'linear-gradient(135deg, #c11e1f, #000000)',
-      icon: 'flourish',
-      quickLaunch: true,
+    {
+      category: 'Law',
+      name: 'CasebookConnect',
+      key: 'cb',
+      url: 'https://www.casebookconnect.com/',
+      color: 'linear-gradient(135deg, #00857C, #FFFFFF)',
+      icon: 'casebookconnect',
+      quickLaunch: false,
     },
-      {
-      category: 'CRE',
-      name: 'CoStar',
-      key: 'co',
-      url: 'https://product.costar.com/',
-      search: '/search?q={}',
-      color: '#0054A6',
-      icon: 'costar',
-      quickLaunch: true,
-    },
-      {
-      category: 'CRE',
-      name: 'CREXi',
-      key: 'cr',
-      url: 'https://www.crexi.com/properties',
-      search: '/search?q={}',
-      color: 'linear-gradient(135deg, #019CDE, #ffffff)',
-      icon: 'crexi',
-      quickLaunch: true,
-    },
-      {
-      category: 'CRE',
-      name: 'AlphaMap',
-      key: 'al',
-      url: 'https://app.alphamap.com/',
-      search: '/search?q={}',
-      color: 'linear-gradient(135deg, #EF4574, #76C9B5, #FFCB68, #7CACDC)',
-      icon: 'alphamap',
-      quickLaunch: true,
-    },
-      {
-      category: 'CRE',
-      name: 'Box',
-      key: 'b',
-      url: 'https://mreis.app.box.com/folder/257752527881',
-      search: '/search?q={}',
-      color: '#0071f7',
-      icon: 'box',
-      quickLaunch: true,
+    {
+      category: 'Law',
+      name: 'Quimbee',
+      key: 'q',
+      url: 'https://www.quimbee.com/study-aids/learning-hub',
+      color: 'linear-gradient(135deg, #FFC629, #FFFFFF)',
+      icon: 'quimbee',
+      quickLaunch: false,
     },
   ],
 
@@ -277,7 +190,6 @@ const CONFIGObj = {
    */
   defaultSuggestions: {
     g: ['g/issues', 'g/pulls', 'gist.github.com'],
-    r: ['r/r/unix', 'r/r/startpages', 'r/r/webdev', 'r/r/technology'],
   },
 
   /**
@@ -323,15 +235,25 @@ const CONFIGObj = {
    */
   twentyFourHourClock: true,
 };
-let CONFIG;
-
-if (localStorage.getItem('CONFIG') === null){
-  CONFIG = CONFIGObj;
+// Only the color preference is persisted. Earlier versions cached the whole
+// config in localStorage, which froze the link list at whatever it was the
+// first time "reverse!" was used; migrate that value out and drop the cache.
+function loadReversedColors() {
+  try {
+    const legacy = localStorage.getItem('CONFIG');
+    if (legacy !== null) {
+      const { reversedColors } = JSON.parse(legacy);
+      localStorage.removeItem('CONFIG');
+      localStorage.setItem('reversedColors', JSON.stringify(!!reversedColors));
+    }
+    const stored = localStorage.getItem('reversedColors');
+    return stored === null ? CONFIGObj.reversedColors : JSON.parse(stored) === true;
+  } catch (e) {
+    return CONFIGObj.reversedColors;
+  }
 }
 
-else {
-  CONFIG = JSON.parse(localStorage.getItem('CONFIG'));
-}
+const CONFIG = { ...CONFIGObj, reversedColors: loadReversedColors() };
 
 
 
@@ -945,11 +867,8 @@ class Form {
   }
 
   _reverseConfig() {
-    CONFIG.reversedColors = !CONFIG.reversedColors;
-    localStorage.clear();
-    localStorage.setItem('CONFIG', JSON.stringify(CONFIG));
+    localStorage.setItem('reversedColors', JSON.stringify(!CONFIG.reversedColors));
     location.reload();
-    console.log(CONFIG.reversedColors);
   }
 
   _clearPreview() {

@@ -281,6 +281,7 @@ body.form .search-form {
 
   .categories {
     display: flex;
+    flex-wrap: wrap;
     grid-template-columns: 250px 175px;
     justify-content: space-around;
   }
